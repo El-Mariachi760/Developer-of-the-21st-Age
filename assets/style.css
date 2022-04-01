@@ -1,0 +1,73 @@
+/* General format */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #eeeeee91;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*For navagation Bar*/
+header li, header a {
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: #66ccff;
+    color: white;
+    border-image: round;
+    }
+
+/*Navagation bar pointer and hover*/    
+.logo {
+cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: #0088a9;
+}
+
+#contact-me{
+    color: black;
+}
+
+/* Footer formating */
+footer {
+    background: #66ccff;
+    width: 100%;
+    padding: 40px 35px;
+  }
+
+  footer h3 {
+    display: inline;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  footer div {
+    float: right;
+    line-height: 1;
+    text-align: right;
+  }
+  footer a {
+    color: #024e76;
+  }
