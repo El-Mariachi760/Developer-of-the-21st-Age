@@ -4,7 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Alex Hernandez</title>
-    <link rel="stylesheet" href="webPageDesign.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/789c9dee17.js" crossorigin="anonymous"></script>
   </head>
   
   <body>
@@ -17,48 +18,85 @@
           <li> <a href="#home">Home</a></li>
           <li> <a href="#about-me">About</a></li>
           <li> <a href="#my-projects">Projects</a> </li>
-          <li> <a href="#contact-me">Reach Out</a> </li>
+          <li> <a href="#contact-me">Contact</a> </li>
         </ul>
       </nav>     
     </header>
     
     <!-- Class attribute with name "section" -->
-    <section class="section" id="about-me">
-      <h1 class="headers">Alex Hernandez</h1>
-      <img src="sloth.jpg" alt="Sloth" style="width:300px;height:400px;">
-      <h3>Full Stack Developer of the 21st Age</h3>
-      <h2> About Me</h2>
-      <p>When I am not playing video games, eating at a new restaurant, or out on a journey, 
-        I look for new perspectives of solving challeges I faced in the past to apply it to 
-        any present or future complication and conquer it.</p>
+    <section class="hero" id="about-me">
+      <div class="aboutMe-cta">
+        <h1 class="headers">Alex Hernandez</h1>
+        <h3>Full Stack Developer of the 21st Age</h3>
+        <img src="./assets/images/Sloth.jpg" alt="Sloth" style="width:275px;height:350px;">
+      </div>
+      <div class="aboutMe">
+        <h2> About Me</h2>
+        <p>When I am not playing video games, eating at a new restaurant, or out on a journey, 
+          I look for new perspectives of solving challeges I faced in the past to apply it to 
+          any present or future complication and conquer it.</p>
+        </div>
+      </section>
+      
+      <!-- Begin section with projects id my-projects-->
+      
+      <section class="projects" id="my-projects">
+        <h2 class="primaryTitle">Projects</h2>
+        <!--project 1-->
+        <div class="project">
+          <h3>Runner's Hour</h3>
+        <div class="projectBlock" id="runnersHour">
+            <div class="projectText">
+              <p>Gym website ready for use</p>
+            </div>        
+            <div class="projectImg">
+              <img src="./assets/images/RunnersHour.png" alt="RunnersHour HomePage" class="float-left" style="width:300px; height:200px">
+            </div>
+          </div>
+        </div>
+        
+        <!--project 2-->
+        <div class="project">
+          <h3>Mini 3v3 soccer game</h3>
+          <Article class="projectBlock" id="3v3soccer">
+            <div class="projectText">
+              <p>This level is not yet unlocked</p>
+            </div>
+            <div class="projectImg">
+              <img src="./assets/images/coming-soon.png" alt="coming soon img" class="float-right" style="width:300px; height:200px">
+            </div>
+          </Article>
+        </div>
+        
+        <!--project 3-->
+        <div class="project">
+          <h3>Cyclystic 2021 Data Analysis</h3>
+          <article class="projectBlock" id="cyclystic">
+            <div class="projectText">
+              <p>Finishing a few side quests before continuing the main story quest</p>
+            </div>
+            <div class="projectImg">
+              <img src="./assets/images/coming-soon.png" alt="coming soon img" class="float-left" style="width:300px; height:200px">
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <!-- Class attribute with name "section" id my-projects-->
+    <!--Contact Me-->
     
-    <section class="section" id="my-projects">
-      <h2> My Projects</h2>
-      <p>When I am not out enjoying the finer things in life, I like to work projects that help
-        me grow as both as a person and a professional. Here is an overview: 
-      </p>
-      <h3>Data Analysis</h3>
-      <p></p>
-      <h3>Web Development</h3>
-      <p></p>
-    </section>
- 
-    <!--Class attribute with name "section"-->
-    <section class="section" id="contact-me">
-        <h2 class="headers">Contact Info</h2>
-        <ul>
+    <h2 class="primaryTitle">Contact Info</h2>
+    <section class="contacts" id="contact-me">
+        <ul class="contact-links">
           <!--Anchor tags using href to link to external website-->
           <!--id attributes to provide unique identifier for element-->
-          <li id="email"><strong>Email:</strong> <a href="mailto:alexandro.h234@gmail.com">alexandro.h234@gmail.com</a></li>
-          <li id="github"><strong>GitHub:</strong> <a href="https://github.com/El-Mariachi760" target="_blank">El-Mariachi760</a></li>
-          <li id="LinkedIn"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ahernandez369/" target="_blank">ahernandez369</a></li>
-          <li id="portfolio"><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+          <li id="email"><a href="mailto:alexandro.h234@gmail.com"><i class="fa-solid fa-at" style="font-size: 1.73em;"></i></a></li>
+          <li id="github"><a href="https://github.com/El-Mariachi760" target="_blank"><i class="fa-brands fa-github" style="font-size: 1.73em;"></i></a></li>
+          <li id="LinkedIn"><a href="https://www.linkedin.com/in/ahernandez369/" target="_blank"><i class="fa-brands fa-linkedin-in" style="font-size: 1.73em;"></i></a></li>
+          <!--<li id="portfolio"><strong>Portfolio:</strong> <a href="#">coming soon</a></li>-->
         </ul>
     </section>
-
+    
     <footer class="footer">
       <h3>“Not all those who wander are lost.” — Bilbo Baggins</h3>
       <div>
@@ -66,8 +104,8 @@
         &copy; 2022 AH
       </div>
     </footer>
-
-
+    
+    
   </body>
-
-</html>
+  
+  </html>

@@ -6,52 +6,185 @@
   }
 
 body {
-    background-color: #eeeeee91;
+    background-color: #fbeca3;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*For navagation Bar*/
-header li, header a {
-    font-weight: 500;
-    font-size: 16px;
-    color:white;
-    text-decoration: none;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 10%;
-    background-color: #66ccff;
-    color: white;
+    padding: 30px 10%;
+    background-color: #534138;
+    color: #fbeca3;
     border-image: round;
     }
+  header li, header a {
+      font-weight: 500;
+      font-size: 16px;
+      color:#fbeca3;
+      text-decoration: none;
+  }
+
 
 /*Navagation bar pointer and hover*/    
 .logo {
 cursor: pointer;
 }
-.nav-links{
-    list-style: none;
-}
-.nav-links li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-.nav-links li a {
-    transition: all 0.3s ease 0s;
-}
-.nav-links li a:hover {
-    color: #0088a9;
+  .nav-links{
+      list-style: none;
+  }
+    .nav-links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    .nav-links li a {
+        transition: all 0.3s ease 0s;
+    }
+    .nav-links li a:hover {
+        color: #a45454;
+     }
+
+/* Headers */
+
+.primaryTitle {
+  font-size: 45px;
+  color: #534138;
+  border-bottom: 3px solid;
+  padding-bottom: 25px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
-#contact-me{
-    color: black;
+/* End Headers */
+
+/* Hero section */
+.hero {
+  background-image: url("../images/theShire.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fbeca3;
+}
+  /* To center img and Text */
+  .aboutMe-cta {
+    width: 35%;
+    text-align: center;
+    margin: 3.5;
+    color: #fbeca3;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  .aboutMe-cta img{
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .aboutMe {
+    width: 80%;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 1.3;
+    justify-content: center;
+    
+  }
+/* End Hero Section */
+
+/* Begin Projects Section */
+
+.projects {
+  padding: 50px 50px;
+}
+
+  .project {
+    margin: 50px auto;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #534138;
+
+  }
+  .projectBlock {
+    flex: 2 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+    .projectText {
+      flex: 12;
+    }
+    .projectText p {
+      color: #fbeca3;
+      font-size: 18px;
+    }
+    .projectText h4 {
+      font-size: 26px;
+      line-height: 1.5;
+      color: #fbeca3;
+    }
+    .projectImg {
+      max-width: 100%;
+      
+    }
+    .project h3 {
+      color: #fbeca3;
+      font-size: 46px;
+      flex: 1 30%;
+    }
+
+/* End Projects Section */
+
+
+/* Start Contact section */
+
+.contacts {
+  cursor: pointer;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  
+    .contact-links {
+        list-style: none;
+    }
+      .contact-links li {
+          display: inline-block;
+          padding: 0px 20px;
+      }
+      .contact-links li a {
+          transition: all 0.3s ease 0s;
+      }
+      .contact-links li a:hover {
+          color: #a45454;
+       }
+  
+.fa-solid, .fa-brands {
+  color: #534138;
+  padding: 20px;
+}
+
+.fa-solid, .fa-brands {
+  transition: all 0.3s ease 0s; ;
+}
+.fa-solid:hover, .fa-brands:hover {
+  color: #a45454;
 }
 
 /* Footer formating */
 footer {
-    background: #66ccff;
+    background: #534138;
     width: 100%;
     padding: 40px 35px;
   }
