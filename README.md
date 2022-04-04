@@ -16,10 +16,11 @@ What I did:
 
 Link to site:
 
+https://el-mariachi760.github.io/Developer-of-the-21st-Age/
 
 
 Screenshot location:
 
 <div align="center">
-    <img src="../assets/images/personalWebPageScreenShot.png" width="400px">
+    <img src="../images/personalWebPageScreenShot.png" width="400px">
 </div>
