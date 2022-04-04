@@ -6,6 +6,7 @@
     <title>Alex Hernandez</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/789c9dee17.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   
   <body>
@@ -26,17 +27,17 @@
     <!-- Class attribute with name "section" -->
     <section class="hero" id="about-me">
       <div class="aboutMe-cta">
-        <h1 class="headers">Alex Hernandez</h1>
+        <h1>Alex Hernandez</h1>
         <h3>Full Stack Developer of the 21st Age</h3>
-        <img src="./assets/images/Sloth.jpg" alt="Sloth" style="width:275px;height:350px;">
+        <img src="./assets/images/Sloth.jpg" alt="Sloth" >
       </div>
       <div class="aboutMe">
-        <h2> About Me</h2>
+        <h2 class="sectionTitle"> About Me</h2>
         <p>When I am not playing video games, eating at a new restaurant, or out on a journey, 
           I look for new perspectives of solving challeges I faced in the past to apply it to 
           any present or future complication and conquer it.</p>
-        </div>
-      </section>
+      </div>
+    </section>
       
       <!-- Begin section with projects id my-projects-->
       
@@ -47,10 +48,14 @@
           <h3>Runner's Hour</h3>
         <div class="projectBlock" id="runnersHour">
             <div class="projectText">
-              <p>Gym website ready for use</p>
+              <p>Gym website mock up ready for use in destop and mobile devices</p>
             </div>        
             <div class="projectImg">
-              <img src="./assets/images/RunnersHour.png" alt="RunnersHour HomePage" class="float-left" style="width:300px; height:200px">
+              <a href="https://el-mariachi760.github.io/First-Repo/" target="_blank"><img class ="runnersHour" src="./assets/images/RunnersHour.png" alt="RunnersHour HomePage" class="float-left">    
+                <div class="imgOverlay">
+                  <p class="runnerHour-text">Click Here to View</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -63,7 +68,7 @@
               <p>This level is not yet unlocked</p>
             </div>
             <div class="projectImg">
-              <img src="./assets/images/coming-soon.png" alt="coming soon img" class="float-right" style="width:300px; height:200px">
+              <img src="./assets/images/coming-soon.png" alt="coming soon img" class="float-right">
             </div>
           </Article>
         </div>
@@ -76,7 +81,7 @@
               <p>Finishing a few side quests before continuing the main story quest</p>
             </div>
             <div class="projectImg">
-              <img src="./assets/images/coming-soon.png" alt="coming soon img" class="float-left" style="width:300px; height:200px">
+              <img src="./assets/images/coming-soon.png" alt="coming soon img" class="float-left">
             </div>
           </article>
         </div>
@@ -85,7 +90,7 @@
 
     <!--Contact Me-->
     
-    <h2 class="primaryTitle">Contact Info</h2>
+    <h2 class="primaryTitle">Contact</h2>
     <section class="contacts" id="contact-me">
         <ul class="contact-links">
           <!--Anchor tags using href to link to external website-->
