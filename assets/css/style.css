@@ -142,9 +142,9 @@ cursor: pointer;
   }
   .aboutMe-cta img{
     padding: 5px;
-    width: 70%;
+    width: 50%;
     height: auto;
-    border-radius: 50%;
+    border-radius: none;
   }
   .aboutMe {
     width: 80%;
