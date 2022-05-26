@@ -172,6 +172,7 @@ cursor: pointer;
     align-items: center;
     justify-content: space-between;
     background-color: #534138;
+    border-radius: 10px;
 
   }
   .projectBlock {
@@ -182,6 +183,7 @@ cursor: pointer;
   }
     .projectText {
       flex: 12;
+      margin: 15px;
     }
     .projectText p {
       color: #fbeca3;
@@ -201,6 +203,7 @@ cursor: pointer;
       color: #fbeca3;
       font-size: 46px;
       flex: 1 30%;
+      margin: 15px;
     }
 /* Scale images within project and hover effect*/    
     .projectImg {
@@ -212,14 +215,15 @@ cursor: pointer;
     .projectBlock img {
       width: 100%;
       height: auto;
+      border-radius: 5px;
     }
 
     .imgOverlay {
       position: absolute;
       top: 0%;
       left: 0%;
-      width: 100%;
-      height: 100%;
+      width: 98%;
+      height: 98%;
       background: rgba(0, 0, 0, 0.6);
       color: #c4b479;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -228,7 +232,8 @@ cursor: pointer;
       align-items: center;
       justify-content: center;
       opacity: 0;
-      transition: all 0.3s ease 0s;;
+      transition: all 0.3s ease 0s;
+      border-radius: 5px;
 
     }
 
