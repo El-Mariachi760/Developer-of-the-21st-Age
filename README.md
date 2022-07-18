@@ -5,9 +5,9 @@ Welcome to Alex's WebPage! The journey of a Full Stack Developer in the 21st age
 Here you'll find my projects, and contact info and a little about myself!
 
 projects:
-    - Runner's Hour Website
-    - Mini 3v3 soccer game
-    - Cyclysitic Y2021 Data Analysis
+    - US Citizenship Test Prep
+    - Beer O'Clock
+    - Unbearable
 
 What I did:
     - Made the webiste resposeive
