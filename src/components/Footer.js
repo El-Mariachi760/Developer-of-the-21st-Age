@@ -11,6 +11,7 @@ function Footer () {
                 <GrMail />
                 <FaLinkedin />
             </div>
+            <p>“Not all those who wander are lost.” — Bilbo Baggins</p>
             <p> &copy; 2022 Developer of the 21st Age</p>
         </div>
     )

@@ -17,7 +17,7 @@
     cursor: pointer;
   }
   
-  .footer p {
+  .footer p, h4 {
     color: #fbeca3;
   }
   
