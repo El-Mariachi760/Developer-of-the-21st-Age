@@ -79,7 +79,7 @@
   }
   
   .about .prompt {
-    width: 40%;
+    width: 50%;
     font-size: 30px;
   }
   div.socialMedia a {
@@ -139,7 +139,8 @@
     .about .prompt {
       margin-top: 10px;
       font-size: 20px;
-      width: 80%;
+      width: 90%;
+      height: auto;
     }
   
     .skills {
