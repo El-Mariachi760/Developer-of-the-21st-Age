@@ -32,14 +32,14 @@ function Navbar () {
                 </a>
                 <ul>
                     <li>
-                        <Link to="/"> Home </Link>
+                        <Link to="/Developer-of-the-21st-Age/"> Home </Link>
                     </li>
                     <li>
 
-                        <Link to="/projects"> Projects </Link>  
+                        <Link to="/Developer-of-the-21st-Age/projects"> Projects </Link>  
                     </li>
                     <li>
-                        <Link to="/experience"> Experience </Link> 
+                        <Link to="/Developer-of-the-21st-Age/experience"> Experience </Link> 
                     </li>
                 </ul>
             </div>
