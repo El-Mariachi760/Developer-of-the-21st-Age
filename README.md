@@ -1,27 +1,24 @@
 # Alex Hernandez's Web Page
 
-Welcome to Alex's WebPage! The journey of a Full Stack Developer in the 21st age
+Welcome to My Portfolio! The journey of a Full Stack Developer in the 21st age
 
+## Deployment
 Here you'll find my projects, and contact info and a little about myself!
 
-projects:
-    - US Citizenship Test Prep
-    - Beer O'Clock
-    - Unbearable
 
-What I did:
-    - Made the webiste resposeive
-    - Replaced contact links with icons, email, github and linkedIn
-    - Added hover effect over the nav bar and project image
+## Projects:
+- Unbearable
+- Beer O'Clock
+- US Citizenship Test Prep
 
-Link to site:
-
-https://el-mariachi760.github.io/Developer-of-the-21st-Age/
+## Technologies Used
+ReactJS, JavaScript, ParticlesJS, react-vertical-timeline-component, CSS
 
 
-Screenshot:
 
-![personalWebPageScreenShot](https://user-images.githubusercontent.com/94568874/161475925-2fc6a708-41ac-46af-9069-362c2074bed9.PNG)
+
+## Screenshot:
+
 
 Link to runners hour repository:
 https://github.com/El-Mariachi760/First-Repo

@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    height: flex;
+    background: #132A13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 100px;
+    opacity: .75;
+  }
+  
+  footer svg {
+    color: #ECF39E;
+    margin: 5px;
+    font-size: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 1;
+  }
+  
+  .footer p{
+    color: #ECF39E;
+    z-index: 1000;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .footer svg {
+      font-size: 50px;
+    }
+  }
