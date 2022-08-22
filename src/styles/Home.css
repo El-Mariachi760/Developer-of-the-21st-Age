@@ -1,37 +1,80 @@
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Arial", sans-serif;
-    color: 	#534138;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: 	#132A13;
+    background-color: transparent;
   }
+
   
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(75vh - 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #c4b479;
-    color: #a45454;
+    background-color: #4F772D;
+    color: #ECF39E;
+    opacity: .75;
+  }
+
+  div.about h2 {
+    color: #ECF39E;
   }
 
   .introPortrait {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(80vh - 75px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .introPortrait h1 {
+    color: #132A13;
+    font-size: 3rem;
+  }
+
+  .introPortrait h3 {
+    color: #132A13;
+    font-size: 1.5rem;
+  }
+
+  .intro{
+    height: 30%;
+    width: 35%;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: 	#534138;
   }
-  
+
+  div.introPortrait img {
+    padding: 5px;
+    height: 50%;
+    width: auto;
+    border-radius: none;
+    z-index: 1000;
+  }
+  .socialMedia {
+    color: #132A13;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
-    color: #e9d35b;
+    color: #132A13;
     height: 50px;
   }
   
@@ -39,10 +82,12 @@
     width: 40%;
     font-size: 30px;
   }
-  .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: #e9d35b;
+  div.socialMedia a {
+    font-size: 50px;
+    margin: 10px;
+    color: #132A13;
+    align-items: center;
+    z-index: 1000;
   }
   
   .skills {
@@ -55,7 +100,7 @@
   }
   
   .skills h1 {
-    color: 	#534138;
+    color: 	#132A13;
   }
   
   .skills .list {
@@ -71,6 +116,25 @@
     .about h2 {
       font-size: 40px;
     }
+
+    .introPortrait{
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .introPortrait h1 {
+      font-size: 40px;
+
+    }
+    .intro {
+      height: auto;
+      width: auto;
+    }
+
+    .introPortrait h3 {
+      font-size: 25px;
+
+    }
   
     .about .prompt {
       margin-top: 10px;
@@ -84,7 +148,9 @@
     .list {
       padding: 0;
     }
-  
+    .skills h1 {
+      font-size: 40px;
+    }
     .skills h2 {
       font-size: 30px;
     }

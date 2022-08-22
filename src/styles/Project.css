@@ -6,10 +6,15 @@
     align-items: center;
     flex-direction: column;
   }
+
+  .projects h1 {
+    color: #132A13;
+    font-size: 2rem;
+  }
   .projects .projectTitle {
     text-align: center;
-    color: #534138;
-    font-size: 60px;
+    color: #132A13;
+    font-size: 2rem;
     font-weight: bolder;
   }
   
@@ -23,13 +28,14 @@
   
   /* MENU ITEM STYLING */
   
-  .projectItem {
+  div.projectItem {
     border-radius: 15px;
     width: 300px;
     height: 300px;
     margin: 40px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
+    z-index: 1000;
   }
   .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -49,6 +55,7 @@
   
   .projectItem h1 {
     font-size: 25px;
+    color: #132A13;
   }
   
   @media only screen and (max-width: 1300px) {

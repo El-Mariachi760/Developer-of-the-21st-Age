@@ -8,21 +8,67 @@
   }
   
   .project h1 {
-    margin-top: 50px;
-    color: #534138;;
-    font-size: 35px;
+    margin-top: 30px;
+    color: #132A13;;
+    font-size: 3rem;
   }
-  .project img {
+  div.project img {
     width: 700px;
     border-radius: 10px;
+    z-index: 1000;
   }
   
   .project p {
     font-size: 40px;
-    color: #534138;;
+    color: #132A13;;
   }
+
+  .project ul {
+    width: 100%;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 0 1rem;
+    color: #132A13;
+    z-index: 1000;
+
+  }
+
+
   
-  .project svg {
-    font-size: 60px;
-    color: #534138;;
+  .project li {
+    background: linear-gradient(to left, #132A13  50%, #ECF39E 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+    border-radius: 5px;
+    font-size: 1.5rem;
+
+  }
+
+  .project li:hover {
+    background-position: right bottom;
+    
+    }
+
+  .project a {
+    color: #132A13;
+    text-decoration: none;
+  }
+
+  .project a:hover {
+    color: #ECF39E;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .project {
+      height: auto;
+      width: auto;
+      align-items: center;
+      flex-direction: column;
+    }
   }

@@ -2,23 +2,27 @@ import React from "react";
 import { FaGithub, FaLinkedin, } from "react-icons/fa"
 import { GrMail } from "react-icons/gr"
 import "../styles/Home.css"
+import Potrait from "../assets/images/Alex.png"
 
 function Home () {
     return (
         <div className="home">
             <div className="introPortrait">
-                <h1>Alex Hernandez</h1>
-                <h3>Web Developer of the 21st Age</h3>
-                {/* <img src="" alt="stardewValleyInspired" ></img> */}
+                <section className="intro">
+                    <h1>Alex Hernandez</h1>
+                    <h3>Full Stack Developer of the 21st Age</h3>
+                </section>
+                    <img src={Potrait} alt="stardewValleyInspired" />
             </div>
 
             <div className="socialMedia">
-                <FaGithub />
-                <GrMail />
-                <FaLinkedin />
+                <a href="https://github.com/El-Mariachi760"><FaGithub /></a>
+                <a href="mailto:alexandro.h234@gmail.com"><GrMail /></a>
+                <a href="https://www.linkedin.com/in/ahernandez369/"><FaLinkedin /></a>
             </div>
 
             <div className="about">
+                    <h2>About Me</h2>
                 <div className="prompt">
                     <p>
                     When I am not out on a journey, eating at a new restaurant, or playing video games, 

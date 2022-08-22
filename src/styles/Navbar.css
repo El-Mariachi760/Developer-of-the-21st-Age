@@ -1,7 +1,8 @@
 .navbar {
     width: 100%;
-    height: 100px;
-    background: #534138;
+    height: 80px;
+    background: #132A13;
+    opacity: .75;
   }
   
   .links {
@@ -9,15 +10,60 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: #fbeca3;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 1rem;
+    color: #132A13;
+    
   }
-  
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  div.repoLinks {
+    z-index: 1000;
+  }
   .navbar a {
-    color: #fbeca3;
+    color: #ECF39E;
     text-decoration: none;
-    margin: 20px;
-    font-size: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .75rem;
+  }
+
+  .navbar a:hover {
+    color: #132A13;
+  }
+
+.navbar li {
+  background: linear-gradient(to left, #ECF39E 50%, #132A13 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .5s ease-out;
+  border-radius: 5px;
+}
+
+.navbar li:hover {
+background-position: right bottom;
+
+}
+
+
+
+  .siteLogo {
+  background: linear-gradient(to right, #ECF39E 50%, #132A13 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  border-radius: 5px;
+
+  }
+  a.siteLogo:hover {
+    background-position: left bottom;
   }
   
   .toggleBtn {
@@ -35,7 +81,7 @@
     margin-right: 20px;
     background-color: transparent;
     border: none;
-    color: #fbeca3;
+    color: #ECF39E;
     cursor: pointer;
   }
   
@@ -55,7 +101,7 @@
   }
   
   @media only screen and (max-width: 900px) {
-    .navbar a {
+    .navbar a{
       width: 70px;
     }
   }
@@ -66,6 +112,13 @@
     }
     #close a {
       display: none;
+    }
+    .navbar ul {
+      display: inline-block;
+    }
+    a.siteLogo {
+      display: inline;
+      height: 20%;
     }
   }
   
