@@ -5,6 +5,7 @@ Welcome to My Portfolio! The journey of a Full Stack Developer in the 21st age
 ## Deployment
 Here you'll find my projects, and contact info and a little about myself!
 
+
 ## Projects:
 - Unbearable
 - Beer O'Clock
