@@ -22,11 +22,11 @@ function Home () {
             </div>
 
             <div className="about">
-                    <h2>About Me</h2>
+                <h2>About Me</h2>
                 <div className="prompt">
                     <p>
-                    When I am not out on a journey, eating at a new restaurant, or playing video games, 
-                    I look for new perspectives to solve future challeges.
+                    I am a Full Stack Developer with a background in data analytics. I have a passion for learning and creating. When I am not doing either, I am enjoying
+                    a cold beer with view.
                     </p>
                     <br></br>
                     <p>
