@@ -27,19 +27,19 @@ function Navbar () {
                 </button>
             </div>
             <div className="links">
-                <a href="/" className="siteLogo">
+                <a href="https://el-mariachi760.github.io/Developer-of-the-21st-Age/" className="siteLogo">
                     AH
                 </a>
                 <ul>
                     <li>
-                        <Link to="/Developer-of-the-21st-Age/"> Home </Link>
+                        <Link to="Developer-of-the-21st-Age/"> Home </Link>
                     </li>
                     <li>
 
-                        <Link to="/Developer-of-the-21st-Age/projects"> Projects </Link>  
+                        <Link to="Developer-of-the-21st-Age/projects"> Projects </Link>  
                     </li>
                     <li>
-                        <Link to="/Developer-of-the-21st-Age/experience"> Experience </Link> 
+                        <Link to="Developer-of-the-21st-Age/experience"> Experience </Link> 
                     </li>
                 </ul>
             </div>
