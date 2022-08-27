@@ -41,6 +41,12 @@ function Navbar () {
                     <li>
                         <Link to="Developer-of-the-21st-Age/experience"> Experience </Link> 
                     </li>
+                    <li>
+                        <Link to="Developer-of-the-21st-Age/Contact"> Contact </Link> 
+                    </li>
+                    <li>
+                        <a href={require("../assets/resume/AhernandezResume.pdf")} target="_blank" rel="noreferrer"> Resume </a>
+                    </li>
                 </ul>
             </div>
         </nav>

@@ -3,6 +3,8 @@
     height: 80px;
     background: #132A13;
     opacity: .75;
+    position: fixed;
+    z-index: 9999;
   }
   
   .links {
@@ -24,7 +26,7 @@
   }
 
   div.repoLinks {
-    z-index: 1000;
+    z-index: 9999;
   }
   .navbar a {
     color: #ECF39E;
