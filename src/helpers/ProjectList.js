@@ -25,7 +25,7 @@ export const projectList = [
     {
         name: "US Citizenship Quiz App",
         image: USquiz,
-        desc: "Prepare for the Cizenship test",
+        desc: "Prepare for the Citizenship test",
         skills: "JavaScript, HTML, CSS",
         repo: "https://github.com/El-Mariachi760/US-Citizenship-Test-Prep",
         webpage:"https://el-mariachi760.github.io/US-Citizenship-Test-Prep/"
