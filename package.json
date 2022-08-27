@@ -11,6 +11,7 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "react": "^18.2.0",
+    "react-axios": "^2.0.6",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
@@ -22,8 +23,7 @@
     "tsparticles": "^2.2.2",
     "tsparticles-engine": "^2.2.2",
     "tsparticles-slim": "^2.2.2",
-    "web-vitals": "^2.1.4",
-    "react-axios": "^2.0.6"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
