@@ -9,7 +9,7 @@ function Projects () {
             <h1>Personal Projects </h1>
             <div className="projectList">
                 {projectList.map((project, idx) => {
-                    return <ProjectItem id={idx} name={project.name} image={project.image}/>
+                    return <ProjectItem id={idx} name={project.name} image={project.image} desc={project.desc}/>
                 })}
 
             </div>

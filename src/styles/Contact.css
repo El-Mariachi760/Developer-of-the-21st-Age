@@ -1,0 +1,72 @@
+#contact {
+    text-align: center;
+    margin-top: 5%;
+
+}
+/* .input-values {
+    position: relative;
+} */
+
+form {
+    display: inline-block;
+}
+#contact-form {
+    background-color: #4F772D;
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%;
+    position: relative;
+ 
+
+}
+
+
+
+div.input-values input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ECF39E;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+    
+}
+
+form label {
+    color: #ECF39E;
+    font-size: 1.25rem;
+}
+
+#contact h2 {
+    color: #132A13;
+    font-size: 3rem;
+}
+
+#contact p {
+    color: #132A13;
+    font-size: 1.2rem;
+    max-width: 55%;
+    display: inline-block;
+    position: relative;
+}
+
+form button {
+    background-color: #132A13;
+    color: #ECF39E;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #ECF39E;
+    color: #132A13;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #contact {
+      margin-top: 20%;
+    }
+  }

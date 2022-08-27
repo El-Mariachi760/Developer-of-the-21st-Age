@@ -7,6 +7,7 @@ import ProjectDisplay from './pages/ProjectDisplay';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ParticleBackground from './components/ParticleBackground';
+import Contact from './pages/Contact';
 
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="Developer-of-the-21st-Age/projects" element={<Projects />} />
           <Route path="Developer-of-the-21st-Age/project/:id" element={<ProjectDisplay />} />
           <Route path="Developer-of-the-21st-Age/experience" element={<Experience />} />
+          <Route path="Developer-of-the-21st-Age/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

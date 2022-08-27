@@ -22,7 +22,8 @@
     "tsparticles": "^2.2.2",
     "tsparticles-engine": "^2.2.2",
     "tsparticles-slim": "^2.2.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-axios": "^2.0.6"
   },
   "scripts": {
     "predeploy": "npm run build",
