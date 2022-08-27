@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Developer-of-the-21st-Age/static/css/main.18bb1ffe.css",
-    "main.js": "/Developer-of-the-21st-Age/static/js/main.c46fcdef.js",
+    "main.js": "/Developer-of-the-21st-Age/static/js/main.37a20993.js",
     "static/js/787.a314e6ef.chunk.js": "/Developer-of-the-21st-Age/static/js/787.a314e6ef.chunk.js",
     "static/media/start-screen.png": "/Developer-of-the-21st-Age/static/media/start-screen.0104246ec5715f451387.png",
     "static/media/beerOclock.png": "/Developer-of-the-21st-Age/static/media/beerOclock.633e6c485a06d1f04ef6.png",
@@ -12,11 +12,11 @@
     "static/media/pwgenerator.png": "/Developer-of-the-21st-Age/static/media/pwgenerator.78c2a70cd219ce7ca54c.png",
     "index.html": "/Developer-of-the-21st-Age/index.html",
     "main.18bb1ffe.css.map": "/Developer-of-the-21st-Age/static/css/main.18bb1ffe.css.map",
-    "main.c46fcdef.js.map": "/Developer-of-the-21st-Age/static/js/main.c46fcdef.js.map",
+    "main.37a20993.js.map": "/Developer-of-the-21st-Age/static/js/main.37a20993.js.map",
     "787.a314e6ef.chunk.js.map": "/Developer-of-the-21st-Age/static/js/787.a314e6ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18bb1ffe.css",
-    "static/js/main.c46fcdef.js"
+    "static/js/main.37a20993.js"
   ]
 }
