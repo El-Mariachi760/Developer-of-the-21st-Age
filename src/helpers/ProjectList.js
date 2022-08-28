@@ -4,8 +4,18 @@ import USquiz from "../assets/images/start-screen.png"
 import ItsSunny from "../assets/images/weather.png"
 import PWgenerator from "../assets/images/pwgenerator.png"
 import WKday from "../assets/images/workday.png"
+import GameQuest from "../assets/images/game-quest.png"
 
 export const projectList = [
+    {
+        name: "Game Quest",
+        image: GameQuest,
+        desc: "Connecting players to open tables",
+        skills: "React.JS, MongoDB, Express.JS, Node.JS, GraphQL, CSS",
+        repo: "https://github.com/El-Mariachi760/game-quest",
+        webpage:"https://game-quest-v01.herokuapp.com/"
+
+    },
     {
         name: "Unbearable",
         image: Unbearable,
