@@ -18,11 +18,11 @@ function App() {
         <ParticleBackground />
         <Navbar />
         <Routes>
-          <Route path="Developer-of-the-21st-Age/" element={<Home />} />
-          <Route path="Developer-of-the-21st-Age/projects" element={<Projects />} />
-          <Route path="Developer-of-the-21st-Age/project/:id" element={<ProjectDisplay />} />
-          <Route path="Developer-of-the-21st-Age/experience" element={<Experience />} />
-          <Route path="Developer-of-the-21st-Age/Contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<ProjectDisplay />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
