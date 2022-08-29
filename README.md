@@ -24,5 +24,4 @@ ReactJS, JavaScript, ParticlesJS, react-vertical-timeline-component, CSS
 
 
 
-Link to runners hour repository:
-https://github.com/El-Mariachi760/First-Repo
+
