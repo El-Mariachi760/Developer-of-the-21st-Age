@@ -27,7 +27,7 @@ function Navbar () {
                 </button>
             </div>
             <div className="links">
-                <a href="enchanting-lokum-368e84.netlify.app" className="siteLogo">
+                <a href="/" className="siteLogo">
                     AH
                 </a>
                 <ul>
