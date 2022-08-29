@@ -27,22 +27,22 @@ function Navbar () {
                 </button>
             </div>
             <div className="links">
-                <a href="https://el-mariachi760.github.io/Developer-of-the-21st-Age/" className="siteLogo">
+                <a href="enchanting-lokum-368e84.netlify.app" className="siteLogo">
                     AH
                 </a>
                 <ul>
                     <li>
-                        <Link to="Developer-of-the-21st-Age/"> Home </Link>
+                        <Link to="/"> Home </Link>
                     </li>
                     <li>
 
-                        <Link to="Developer-of-the-21st-Age/projects"> Projects </Link>  
+                        <Link to="/projects"> Projects </Link>  
                     </li>
                     <li>
-                        <Link to="Developer-of-the-21st-Age/experience"> Experience </Link> 
+                        <Link to="/experience"> Experience </Link> 
                     </li>
                     <li>
-                        <Link to="Developer-of-the-21st-Age/Contact"> Contact </Link> 
+                        <Link to="/Contact"> Contact </Link> 
                     </li>
                     <li>
                         <a href={require("../assets/resume/AhernandezResume.pdf")} target="_blank" rel="noreferrer"> Resume </a>
