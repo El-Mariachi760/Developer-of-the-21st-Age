@@ -52,7 +52,7 @@ function Experience () {
                     icon={<MdWork />}
                 
                 >
-                    <h3 className="vertical-timeline-element-title">Noman Temporary Housing</h3>
+                    <h3 className="vertical-timeline-element-title">Nomad Temporary Housing</h3>
                     <h4 className="vertical-timeline-element-subtitle">San Diego, CA</h4>
                     <p>Reporting IT Analyst</p>
 
