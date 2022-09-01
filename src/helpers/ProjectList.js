@@ -17,12 +17,40 @@ export const projectList = [
 
     },
     {
-        name: "Unbearable",
-        image: Unbearable,
-        desc: "Game to lighten the mood",
-        skills: "JavaScript, HTML, CSS, Phaser3, NodeJS, ExpressJS",
-        repo: "https://github.com/El-Mariachi760/Project_2",
-        webpage:"https://unbearabledeuce.azurewebsites.net/"
+        name: "US Citizenship Quiz App",
+        image: USquiz,
+        desc: "Prepare for the Citizenship test",
+        skills: "JavaScript, HTML, CSS",
+        repo: "https://github.com/El-Mariachi760/US-Citizenship-Test-Prep",
+        webpage:"https://el-mariachi760.github.io/US-Citizenship-Test-Prep/"
+        
+    },
+    {
+        name: "It's Sunny SomeWhere!",
+        image: ItsSunny,
+        desc: "Weather app using API",
+        skills: "JavaScript, HTML, CSS, Bootstrap",
+        repo: "https://github.com/El-Mariachi760/its-sunny-somewhere",
+        webpage:"https://el-mariachi760.github.io/its-sunny-somewhere/"
+        
+    },
+    {
+        name: "Password Generator",
+        image: PWgenerator,
+        desc: "Make it harder for the sneaky hackers",
+        skills: "JavaScript, HTML, CSS, Bootstrap",
+        repo: "https://github.com/El-Mariachi760/password-generator",
+        webpage:"https://el-mariachi760.github.io/password-generator/"
+        
+    },
+    {
+        name: "Work Day Scheduler",
+        image: WKday,
+        desc: "Plan for the next coffee break!",
+        skills: "JavaScript, HTML, CSS, Bootstrap",
+        repo: "https://github.com/El-Mariachi760/work-day-scheduler",
+        webpage:"https://el-mariachi760.github.io/work-day-scheduler/"
+        
     },
     {
         name: "Beer O'Clock",
@@ -33,39 +61,11 @@ export const projectList = [
         webpage:"https://el-mariachi760.github.io/beer-pages/"
     },
     {
-        name: "US Citizenship Quiz App",
-        image: USquiz,
-        desc: "Prepare for the Citizenship test",
-        skills: "JavaScript, HTML, CSS",
-        repo: "https://github.com/El-Mariachi760/US-Citizenship-Test-Prep",
-        webpage:"https://el-mariachi760.github.io/US-Citizenship-Test-Prep/"
-
-    },
-    {
-        name: "It's Sunny SomeWhere!",
-        image: ItsSunny,
-        desc: "Weather app using API",
-        skills: "JavaScript, HTML, CSS, Bootstrap",
-        repo: "https://github.com/El-Mariachi760/its-sunny-somewhere",
-        webpage:"https://el-mariachi760.github.io/its-sunny-somewhere/"
-
-    },
-    {
-        name: "Password Generator",
-        image: PWgenerator,
-        desc: "Make it harder for the sneaky hackers",
-        skills: "JavaScript, HTML, CSS, Bootstrap",
-        repo: "https://github.com/El-Mariachi760/password-generator",
-        webpage:"https://el-mariachi760.github.io/password-generator/"
-
-    },
-    {
-        name: "Work Day Scheduler",
-        image: WKday,
-        desc: "Plan for the next coffee break!",
-        skills: "JavaScript, HTML, CSS, Bootstrap",
-        repo: "https://github.com/El-Mariachi760/work-day-scheduler",
-        webpage:"https://el-mariachi760.github.io/work-day-scheduler/"
-
+        name: "Unbearable",
+        image: Unbearable,
+        desc: "Game to lighten the mood",
+        skills: "JavaScript, HTML, CSS, Phaser3, NodeJS, ExpressJS",
+        repo: "https://github.com/El-Mariachi760/Project_2",
+        webpage:"https://unbearabledeuce.azurewebsites.net/"
     },
 ]
