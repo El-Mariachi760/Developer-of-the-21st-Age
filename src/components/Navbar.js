@@ -45,7 +45,7 @@ function Navbar () {
                         <Link to="/Contact"> Contact </Link> 
                     </li>
                     <li>
-                        <a href={require("../assets/resume/AhernandezResume.pdf")} target="_blank" rel="noreferrer"> Resume </a>
+                        <a href={require("../assets/resume/AHernandez2022_Resume.pdf")} target="_blank" rel="noreferrer"> Resume </a>
                     </li>
                 </ul>
             </div>
